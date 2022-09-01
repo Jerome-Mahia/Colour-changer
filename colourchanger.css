@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    background: #706f6f;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+li{
+    list-style-type: none;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+li:hover{
+    transform:scale(1.5);
+}
